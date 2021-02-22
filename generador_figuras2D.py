@@ -21,7 +21,7 @@ def area_cudrado(lado):
 	return a
 
 def perimetro_cuadrado(lado):
-	p = 4(lado)
+	p = lado*lado*lado*lado
 	return p
 #######################################################################
 def crear_trianguloEQUI (lado_c):
@@ -35,7 +35,7 @@ def area_trianguloEQUI(lado_c):
 	return a
 
 def perimetro_trianguloEQUI( lado_c):
-	p = 3(lado_c)
+	p = lado_c*lado_c*lado_c
 	return p
 #######################################################################
 def crear_trianguloISO (lado_a, lado_b, lado_c):
@@ -135,10 +135,11 @@ def listar_clasificacion(clasificacion):
 			print(TrianguloEscaleno)
 		if t== 0:
 			print("SALISTE")
-			break
-		else:
+		break
+	else:
 		print ("")
 		input("No has pulsado ninguna opción correcta...\npulsa una tecla para continuar")
+			
 		
 
 def imprimir():
