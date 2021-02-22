@@ -137,7 +137,7 @@ def listar_clasificacion(clasificacion):
 			print("SALISTE")
 			break
 	else:
-		print ()
+		print ("-")
 		input("No has pulsado ninguna opción correcta...\npulsa una tecla para continuar")
 			
 		
