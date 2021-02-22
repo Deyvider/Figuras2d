@@ -135,9 +135,9 @@ def listar_clasificacion(clasificacion):
 			print(TrianguloEscaleno)
 		if t== 0:
 			print("SALISTE")
-		break
+			break
 	else:
-		print ("")
+		print ()
 		input("No has pulsado ninguna opción correcta...\npulsa una tecla para continuar")
 			
 		
