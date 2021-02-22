@@ -138,6 +138,7 @@ def listar_clasificacion(clasificacion):
 			break
 	else:
 		print ("-")
+		print("sss")
 		input("No has pulsado ninguna opción correcta...\npulsa una tecla para continuar")
 			
 		
